@@ -2,12 +2,12 @@
 2. download gitbash from git-scm.com
 3. make files in local computer
 4. open gitbash and type :
-   git config --global user.name "supriyo"
-   git config --global user.email "gupta_sdg@yahoo.com"
+   git config --global user.name "name"
+   git config --global user.email "email"
 5. go to local computer. open folder and right click on a blank area then click open gitbash here
 6. then new gitbash tab will open and then type:
     git init
-    git remote add origin https://github.com/GuptaSDG/FundTransfer.git      (github link)
+    git remote add origin https://github.com/GuptaSDG/FundTransfer.git         (github link)
     git add .
     git commit -m "First Commit"
     git push origin master
@@ -16,6 +16,20 @@ done. file will be uploaded to github
 7. now if we edit file and want to update the previous file then
    we have to go to that file and right click on a blank area and click open gitbash here
    then new gitbash tab will open and then type:
-    git add .
+    git add .   (. dile all file up hobe, ar specific file up korte hole add fileName)
     git commit -m "First Commit"
-    git push origin master
+    git push origin master     ( master ekta branch or sub folder)
+
+
+Clone Repository ( anno kono repository nijer pc te clone kora)
+1.create a folder in local computer
+2. right click on blank space then open git bash
+3. then type:
+   git clone https://github.com/Muntasir101/TestProject.git      ( anno kono repositary link)
+
+
+ git branch
+git checkout master
+ git checkout -b NewBranch
+ git checkout main
+ git merge NewBranch
