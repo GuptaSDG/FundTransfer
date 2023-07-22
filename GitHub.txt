@@ -1,0 +1,21 @@
+1. account open to github.com
+2. download gitbash from git-scm.com
+3. make files in local computer
+4. open gitbash and type :
+   git config --global user.name "supriyo"
+   git config --global user.email "gupta_sdg@yahoo.com"
+5. go to local computer. open folder and right click on a blank area then click open gitbash here
+6. then new gitbash tab will open and then type:
+    git init
+    git remote add origin https://github.com/GuptaSDG/FundTransfer.git      (github link)
+    git add .
+    git commit -m "First Commit"
+    git push origin master
+
+done. file will be uploaded to github
+7. now if we edit file and want to update the previous file then
+   we have to go to that file and right click on a blank area and click open gitbash here
+   then new gitbash tab will open and then type:
+    git add .
+    git commit -m "First Commit"
+    git push origin master
